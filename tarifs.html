@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="h-100">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles/raw/style.css" />
   </head>
   
-  <body class="h-100 d-flex flex-column">
+  <body>
 
 
     <!-- Navbar -->
@@ -61,12 +61,15 @@
 
      <!-- Container Tarifs -->
 
-    <div class="container flex-grow-1 flex-shrink-0 pb-5">
+    
+    <section class="bg-blanc-ivoire pt-5">
+
+      <div class="container p-5 pb-5">
 
 
-        <p class="text-center text-dark-1 mb-0 mt-4">Only Fresh and Quality Products</p>
-        <h1 class="text-center text-dark-1 mb-0 playfair-font fs-1">Our Two Menus</h1>
-        <p class="text-center text-dark-1 mb-4 mt-1">Choose your favorite</p>
+        <p class="text-center text-dark-1 mb-0 mt-4">Enseignement de tennis, pour personnes valides et handicapés</p>
+        <h1 class="text-center text-dark-1 mb-0 playfair-font fs-1">Enfants / Ados / Adultes</h1>
+        <p class="text-center text-dark-1 mb-4 mt-1">Professeurs aggrés Brevet BE.2, classés à 2/6</p>
         
   
         <!-- Accordion -->
@@ -74,7 +77,7 @@
         <div class="accordion" id="accordionParent">
   
   
-  
+          <!-- Accordion ligne no1 -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="accord1">
               <button 
@@ -84,13 +87,12 @@
               aria-expanded="true"
               aria-controls="collapse1"
               >
-                <span class="playfair-font fs-2">Sea Delight &nbsp;-</span>&nbsp;&nbsp;
+                <span class="playfair-font fs-2">Enfants &nbsp;-</span>&nbsp;&nbsp;
                 <span class="fs-2 pt-1">135</span>
               </button>
             </h2>
   
-            <div 
-            id="collapse1"
+            <div id="collapse1"
             class="accordion-collapse collapse show"
             aria-labelledby="accord1" data-bs-parent="#accordionParent"
             >
@@ -138,8 +140,9 @@
             </ul>
             </div>
           </div>
+
   
-  
+          <!-- Accordion ligne no2 -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="accord2">
               <button 
@@ -148,15 +151,79 @@
               data-bs-target="#collapse2"
               aria-controls="collapse2"
               >
-                <span class="playfair-font fs-2">Meat Heaven &nbsp;-</span>&nbsp;&nbsp;
+                <span class="playfair-font fs-2">Ados &nbsp;-</span>&nbsp;&nbsp;
                 <span class="fs-2 pt-1">140</span>
               </button>
             </h2>
   
-            <div 
-            id="collapse2"
+            <div id="collapse2"
             class="accordion-collapse collapse"
             aria-labelledby="accord2" data-bs-parent="#accordionParent"
+            >
+            <ul class="list-group">
+              <li class="list-group-item p-4 d-flex justify-content-between">
+                <span class=" fs-5">
+                  Negima yakitori, Japanese Chicken Skewers
+                </span>
+                <span class="fs-5">
+                  20
+                </span>
+              </li>
+              <li class="list-group-item p-4 d-flex justify-content-between">
+                <span class=" fs-5">
+                  Chashu, Japanese Braised Pork Belly
+                </span>
+                <span class="fs-5">
+                  35
+                </span>
+              </li>
+              <li class="list-group-item p-4 d-flex justify-content-between">
+                <span class=" fs-5">
+                  Sukiyaki, Japanese fondue
+                </span>
+                <span class="fs-5">
+                  30
+                </span>
+              </li>
+              <li class="list-group-item p-4 d-flex justify-content-between">
+                <span class=" fs-5">
+                  Shabu-shabu, sliced meat and vegetables.
+                </span>
+                <span class="fs-5">
+                  25
+                </span>
+              </li>
+              <li class="list-group-item p-4 d-flex justify-content-between">
+                <span class=" fs-5">
+                  Olive Sanuki Wagyu, high quality beef cold cuts.
+                </span>
+                <span class="fs-5">
+                  30
+                </span>
+              </li>
+            </ul>
+            </div>
+          </div>
+
+
+
+          <!-- Accordion ligne no3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="accord3">
+              <button 
+              class="accordion-button fs-3 p-4"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse3"
+              aria-controls="collapse3"
+              >
+                <span class="playfair-font fs-2">Adultes &nbsp;-</span>&nbsp;&nbsp;
+                <span class="fs-2 pt-1">141</span>
+              </button>
+            </h2>
+  
+            <div id="collapse3"
+            class="accordion-collapse collapse"
+            aria-labelledby="accord3" data-bs-parent="#accordionParent"
             >
             <ul class="list-group">
               <li class="list-group-item p-4 d-flex justify-content-between">
@@ -206,7 +273,114 @@
   
           
         </div>
+
       </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Infos diverses sur les cours -->
+
+    <section class="bg-mandarine py-5">
+
+      <p class="text-center text-dark-1 mb-1">Only fresh and top quality food.</p>
+      <h1 class="playfair-font text-center display-5 text-dark-1 mb-5">Take a sit, relax, we handle it.</h1>
+     
+
+      <div class="container pb-5">
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5 gx-1 gx-md-5 justify-content-center">
+
+          <div>
+            <div class="bg-dark-1 rounded">
+              <img src="ressources/organisation-seance-page-tarifs.jpg" alt="sushi dish" class="img-fluid rounded-top">
+              <div class="p-4">
+                <p class="m-0 fs-6">Fréquence des cours </p>
+                <h3 class="playfair-font mt-2">Organisation des séances</h3>
+                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, itaque!</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="bg-dark-1 rounded">
+              <img src="ressources/les-plus-page-tarifs.jpg" alt="roasted salmon dish" class="img-fluid rounded-top">
+              <div class="p-4">
+                <p class="m-0 fs-6">Les "petits" plus</p>
+                <h3 class="playfair-font mt-2">Bon à savoir</h3>
+                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, itaque!</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="bg-dark-1 rounded">
+              <img src="ressources/les-profs-page-tarifs.jpg" alt="sashimi" class="img-fluid rounded-top">
+              <div class="p-4">
+                <p class="m-0 fs-6">Des coachs experts & animateurs</p>
+                <h3 class="playfair-font mt-2">Les professeurs</h3>
+                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, itaque!</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+     <!-- Bannière Page Tarifs -->
+
+
+    <section id="ban2" class="py-2">
+      <div class="container">
+
+          <div id="carouselContent" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000" data-bs-pause="false">
+
+              <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active text-center p-4">
+                      <p class="font-italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                      </p>
+                  </div>
+                  <div class="carousel-item text-center p-4">
+                      <p class="font-italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                      </p>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+    </section>
+   
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

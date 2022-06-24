@@ -21,6 +21,8 @@ window.addEventListener('scroll', () => {
 
 
 
+
+
 // Animation slide-left du texte Références client
 
 const slidingReferences = document.querySelector('.sliding-left-text-references');
@@ -40,5 +42,6 @@ window.addEventListener('scroll', () => {
         slidingReferences.classList.add('active')
     }
 })
+
 
 
